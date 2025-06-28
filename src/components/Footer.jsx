@@ -4,6 +4,7 @@ import logo from '../assets/images/logo-dark.png';
 
 const Footer = () => {
   return (
+    <>
     <footer className="footer_area aos-init aos-animate" data-aos="fade-up">
       <div className="container">
         <div className="row">
@@ -85,6 +86,7 @@ const Footer = () => {
         </div>
       </div>
     </footer>
+    </>
   );
 };
 

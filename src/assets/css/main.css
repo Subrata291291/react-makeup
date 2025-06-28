@@ -484,6 +484,62 @@ img {
 }
 
 /*Modal Css*/
+.class-form {
+  padding: 2rem;
+}
+#appointment-modal .modal-title {
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-weight: 700;
+}
+#appointment-modal .btn-close {
+  position: absolute;
+  right: 1rem;
+}
+#appointment-modal .submit-btn {
+  position: relative;
+  background-color: #df3774;
+  color: #fff;
+  font-size: 1.8rem;
+  border-radius: 0rem;
+  text-transform: capitalize;
+  padding: 1rem 2rem;
+  margin-top: 2rem;
+  font-weight: 300;
+  transition: all 0.3s ease-in-out;
+}
+#appointment-modal .submit-btn:before {
+    content: "";
+    position: absolute;
+    right: 1.5rem;
+    top: 50%;
+    width: 0;
+    height: 1px;
+    background: #fff;
+    transition: all 0.3s ease-in-out;
+}
+#appointment-modal .submit-btn:hover {
+  padding-right: 5rem;
+}
+#appointment-modal .submit-btn:hover:before {
+  width: 1.5rem;
+}
+.class-form input {
+  width: 100%;
+  border: none;
+  border-radius: 0rem;
+  outline: none;
+  border: 1px solid #ddd;
+  padding: 1rem;
+  margin: 0rem 0rem 1.5rem;
+}
+.class-form label {
+  margin-bottom: 0rem;
+}
+.class-form .common_btn {
+  margin-top: 2rem;
+}
+
 .form-modal .modal-header h1 {
   font-size: 2rem !important;
   text-transform: uppercase;
@@ -525,12 +581,10 @@ img {
 }
 /*Form area*/
 .form-control {
-  border: none;
-  border-bottom: 1px solid #ddd;
   border-radius: 0px;
   font-size: 1.6rem;
-  padding-left: 0rem !important;
   margin-top: 1rem;
+  padding: 1rem;
   background-color: transparent;
   color: #000;
   font-weight: 400;

@@ -2,16 +2,17 @@ import React, { useState } from 'react';
 import contactFormData from '../data/ContactFormData';
 import checkmark from '../assets/images/checkmark.gif';
 
-const Contact = () => {
-  const [formData, setFormData] = useState({
-    name: '',
-    phone: '',
-    email: '',
-    address: '',
-    service: '',
-    query: ''
-  });
+const defaultFormData = {
+  name: '',
+  phone: '',
+  email: '',
+  address: '',
+  service: '',
+  query: ''
+};
 
+const Contact = () => {
+  const [formData, setFormData] = useState(defaultFormData);
   const [isSubmitting, setIsSubmitting] = useState(false);
 
   const handleChange = (e) => {
@@ -24,25 +25,20 @@ const Contact = () => {
     setIsSubmitting(true);
 
     const form = new FormData();
-    Object.keys(formData).forEach((key) => {
-      form.append(key, formData[key]);
+    Object.entries(formData).forEach(([key, value]) => {
+      form.append(key, value);
     });
 
-    fetch('https://script.google.com/macros/s/AKfycbxzP92QsVsQSdX7AQlHGA6DjVt5vsfNiW11_HrxaoMqZ8p6wdL2CPZ3FI0WT0HyZ3U3/exec', {
+    fetch('https://script.google.com/macros/s/AKfycbw3ZzaTjRgxx-x4_56Kdw1OO4zS86AkT7PVBf05PFwA-MXfanhDJA29RIm--qRZnAwB/exec', {
       method: 'POST',
       body: form
     })
       .then(res => res.text())
       .then(() => {
-        setFormData({
-          name: '',
-          phone: '',
-          email: '',
-          address: '',
-          service: '',
-          query: ''
-        });
+        setFormData(defaultFormData);
         setIsSubmitting(false);
+        
+        // Show thank you modal (requires Bootstrap JS)
         if (window.bootstrap && document.getElementById('thankYouModal')) {
           const thankYouModal = new window.bootstrap.Modal(document.getElementById('thankYouModal'));
           thankYouModal.show();
@@ -60,6 +56,7 @@ const Contact = () => {
       <section className="contact_area">
         <div className="container">
           <div className="row">
+
             {/* LEFT SIDE - MAP */}
             <div className="col-lg-6">
               <div className="contact-left">

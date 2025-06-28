@@ -1,9 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import logo from '../assets/images/logo-dark.png'
+import { useModal } from '../context/ModalContext';
 
 const Header = () => {
+  const { openModal } = useModal();
   return (
+    <>
     <header className="header_area w-100">
       <nav className="navbar navbar-expand-md shadow">
         <div className="container position-relative">
@@ -83,12 +86,13 @@ const Header = () => {
                 <Link to="#"><i className="fa fa-shopping-basket"></i></Link>
                 <span>0</span>
               </div> */}
-              <button className='btn button appointment_btn position-relative'>Book Appointment</button>
+              <button className='btn button appointment_btn position-relative' onClick={openModal}>Book Appointment</button>
             </li>
           </ul>
         </div>
       </nav>
     </header>
+</>
   );
 };
 

@@ -14,6 +14,10 @@ import Footer from './components/Footer';
 import CommonBanner from './components/CommonBanner';
 import BlogContent from './components/BlogContent';
 import SingleBlog from './components/SingleBlog';
+import GlobalModal from './components/GlobalModal';
+
+import { ModalProvider } from './context/ModalContext';
+
 
 function App() {
   
@@ -27,6 +31,7 @@ function App() {
 
   return (
     <>
+    <ModalProvider>
       <Header />
       <CommonBanner />
       <Routes>
@@ -40,8 +45,9 @@ function App() {
         <Route path="/blog/:id" element={<SingleBlog />} />
         {/* Add more routes here */}
       </Routes>
-      
       <Footer />
+      <GlobalModal />
+      </ModalProvider>
     </>
   );
 }
