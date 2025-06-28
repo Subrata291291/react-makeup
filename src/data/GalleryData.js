@@ -1,9 +1,12 @@
-import p1 from '../assets/images/p1.jpg';
-import p2 from '../assets/images/p2.jpg';
-import p3 from '../assets/images/p3.jpg';
-import p4 from '../assets/images/p4.jpg';
-import p5 from '../assets/images/p5.jpg';
-import p6 from '../assets/images/p6.jpg';
+import p1 from '../assets/images/p1.png';
+import p2 from '../assets/images/p2.png';
+import p3 from '../assets/images/p3.png';
+import p4 from '../assets/images/p4.png';
+import p5 from '../assets/images/p5.png';
+import p6 from '../assets/images/p6.png';
+import p7 from '../assets/images/eye-makeup.png';
+import p8 from '../assets/images/eye-makeup2.png';
+import p9 from '../assets/images/mehendi1.png';
 const galleryImages = [
     {
       src: p1,
@@ -32,6 +35,21 @@ const galleryImages = [
     },
     {
       src: p6,
+      alt: "p6",
+      caption: "menu-1",
+    },
+    {
+      src: p7,
+      alt: "p6",
+      caption: "menu-1",
+    },
+    {
+      src: p8,
+      alt: "p6",
+      caption: "menu-1",
+    },
+    {
+      src: p9,
       alt: "p6",
       caption: "menu-1",
     },

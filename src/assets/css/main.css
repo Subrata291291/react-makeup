@@ -478,6 +478,10 @@ img {
   font-weight: 300;
   color: #000;
 }
+.blog_area .blog-right {
+  position: sticky;
+  top: 0;
+}
 
 /*Modal Css*/
 .form-modal .modal-header h1 {
