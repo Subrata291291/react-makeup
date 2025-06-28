@@ -27,14 +27,14 @@ const Footer = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <i className="fa fa-facebook" />
+                    <i className="fab fa-facebook"></i>
                   </a>
                 </li>
                 <li>
-                  <a href="#"><i className="fa fa-instagram" /></a>
+                  <a href="#"><i className="fab fa-instagram"></i></a>
                 </li>
                 <li>
-                  <a href="#"><i className="fa fa-youtube-play" /></a>
+                  <a href="#"><i className="fab fa-youtube"></i></a>
                 </li>
               </ul>
             </div>
