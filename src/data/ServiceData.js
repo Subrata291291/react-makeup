@@ -28,8 +28,8 @@ const serviceData = {
     },
     {
       img: haircut,
-      label: "Eyebrow Makeup",
-      description: "Your eyebrows frame your face, and Nandita’s expert eyebrow makeup service ensures they are perfectly shaped and defined to enhance your natural beauty. Whether you need a subtle fill-in for sparse areas or a bold, defined look, Nandita uses the best techniques to achieve the shape and fullness you desire, creating balance and symmetry that complements your facial features."
+      label: "Bridal Mehendi",
+      description: "Celebrate your big day with the timeless art of Bridal Mehendi. Nandita specializes in intricate, elegant mehendi designs that blend traditional motifs with modern flair, creating stunning patterns for hands, arms, and feet. Using natural, skin-friendly henna, the designs are deeply pigmented and long-lasting. Whether you prefer classic bridal patterns or customized elements that tell your love story, Nandita ensures a relaxed and enjoyable mehendi session with a flawless finish for your special day."
     },
     {
       img: partyMakeup,

@@ -31,10 +31,10 @@ const Footer = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="#"><i className="fab fa-instagram"></i></a>
+                  <a href="https://www.facebook.com/profile.php?id=61561602745165&amp;mibextid=ZbWKwL"><i className="fab fa-instagram"></i></a>
                 </li>
                 <li>
-                  <a href="#"><i className="fab fa-youtube"></i></a>
+                  <a href="https://www.facebook.com/profile.php?id=61561602745165&amp;mibextid=ZbWKwL"><i className="fab fa-youtube"></i></a>
                 </li>
               </ul>
             </div>
