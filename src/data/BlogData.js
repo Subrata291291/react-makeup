@@ -1,8 +1,8 @@
 import b1 from '../assets/images/b-1.png';
 import b2 from '../assets/images/b-1-1.png';
-import b3 from '../assets/images/eye-makeup2.jpg';
-import b4 from '../assets/images/eye-makeup1.jpg';
-import b5 from '../assets/images/b-1-3.png';
+import b3 from '../assets/images/eye-makeup3.png';
+import b4 from '../assets/images/eye-makeup4.png';
+import b5 from '../assets/images/mehendi3.png';
 
 const blogData = [
     {
