@@ -29,7 +29,7 @@ const Contact = () => {
       form.append(key, value);
     });
 
-    fetch('https://script.google.com/macros/s/AKfycbw3ZzaTjRgxx-x4_56Kdw1OO4zS86AkT7PVBf05PFwA-MXfanhDJA29RIm--qRZnAwB/exec', {
+    fetch('https://script.google.com/macros/s/AKfycbwBkuBaZWks8a_XXLm0YO5UN3sriIuczhdjv2_-ht1d3LWjy4hPVb0TLE7LHyNyF0U/exec', {
       method: 'POST',
       body: form
     })

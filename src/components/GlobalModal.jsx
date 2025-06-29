@@ -26,7 +26,7 @@ const GlobalModal = () => {
     e.preventDefault();
     setLoading(true);
 
-    const scriptURL = 'https://script.google.com/macros/s/AKfycbw3ZzaTjRgxx-x4_56Kdw1OO4zS86AkT7PVBf05PFwA-MXfanhDJA29RIm--qRZnAwB/exec';
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwBkuBaZWks8a_XXLm0YO5UN3sriIuczhdjv2_-ht1d3LWjy4hPVb0TLE7LHyNyF0U/exec';
     const form = new FormData();
     Object.entries(formData).forEach(([key, value]) => form.append(key, value));
 
