@@ -10,8 +10,10 @@ const GallerySection = () => {
     Fancybox.bind("[data-fancybox='mygallery']", {});
   }, []);
 
-  // Check if we are on the Portfolio page
   const isPortfolioPage = location.pathname === '/portfolio';
+
+  // Conditionally show all or first 8 images
+  const imagesToShow = isPortfolioPage ? galleryImages : galleryImages.slice(0, 8);
 
   return (
     <section className="gallery_area custom_gap" data-aos="fade-up">
@@ -23,8 +25,8 @@ const GallerySection = () => {
         </div>
         <div className="gallery">
           <div className="row">
-            {galleryImages.map((image, index) => (
-              <div className="col-md-4 col-4" key={index}>
+            {imagesToShow.map((image, index) => (
+              <div className="col-md-3 col-4" key={index}>
                 <div className="content">
                   <a
                     href={image.src}
@@ -40,7 +42,6 @@ const GallerySection = () => {
           </div>
         </div>
 
-        {/* Only show the button if NOT on the Portfolio page */}
         {!isPortfolioPage && (
           <div className="text-center">
             <button

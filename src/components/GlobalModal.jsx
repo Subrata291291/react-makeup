@@ -7,6 +7,7 @@ const GlobalModal = () => {
 
   const [formData, setFormData] = useState({
     name: '',
+    date: '',
     phone: '',
     email: '',
     address: '',
@@ -35,7 +36,7 @@ const GlobalModal = () => {
         body: form
       });
 
-      setFormData({ name: '', phone: '', email: '', address: '', query: '' });
+      setFormData({ name: '', date: '', phone: '', email: '', address: '', query: '' });
       setSubmitted(true);
       setTimeout(() => {
         setSubmitted(false);
@@ -62,9 +63,13 @@ const GlobalModal = () => {
               <h5 className="modal-title text-center pt-4 pb-4">Book Appointment</h5>
               <form onSubmit={handleSubmit} className="class-form">
                 <div className="row g-3">
-                  <div className="col-12">
+                  <div className="col-md-6">
                     <label>Name</label>
                     <input type="text" name="name" value={formData.name} onChange={handleChange} className="form-control" required />
+                  </div>
+                  <div className="col-md-6">
+                    <label>Date</label>
+                    <input type="date" name="date" value={formData.date} onChange={handleChange} className="form-control" required />
                   </div>
                   <div className="col-12">
                     <label>Address</label>

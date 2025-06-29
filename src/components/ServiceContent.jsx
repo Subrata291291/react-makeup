@@ -1,7 +1,9 @@
 import React from 'react';
 import serviceData from '../data/ServiceData';
+import { useModal } from '../context/ModalContext';
 
 const ServiceContent = () => {
+  const { openModal } = useModal();
   return (
     <section className="service_area" data-aos="fade-up">
       <div className="container">
@@ -18,7 +20,7 @@ const ServiceContent = () => {
                 <p key={index} className="mb-3">{text}</p>
               ))}
               <button
-                className="btn button service-btn position-relative"
+                className="btn button service-btn position-relative" onClick={openModal}
               >
                 Book Appointment
               </button>

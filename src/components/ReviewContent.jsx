@@ -1,8 +1,10 @@
 import React, { useEffect } from 'react';
 import reviewData from '../data/RevieData';
 import Slider from 'react-slick';
+import { useModal } from '../context/ModalContext';
 
 const ReviewContent = () => {
+  const { openModal } = useModal();
   useEffect(() => {
     // Optional: re-initialize AOS if needed
     if (window.AOS) window.AOS.refresh();
@@ -30,8 +32,7 @@ const ReviewContent = () => {
                 <hr className="line line-hr-secondary mb-5" />
                 <button
                   className="btn form-btn button"
-                  data-bs-toggle="modal"
-                  data-bs-target="#staticBackdrop"
+                  onClick={openModal}
                 >
                   Query Now
                 </button>
