@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 const BlogContent = ( ) => {
   const settings = {
     dots: false,
-    arrows: true,
+    arrows: false,
     infinite: true,
     autoplay: true,
     centerMode: true,

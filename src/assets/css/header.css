@@ -311,7 +311,7 @@
   border-right: none;
 }
 .offcanvas.offcanvas-start {
-  background-color: #0000004a;
+  background-color: #000;
 }
 .offcanvas-header .navbar-brand img {
   /* filter: brightness(0.1); */
