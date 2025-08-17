@@ -3,6 +3,9 @@ import b2 from '../assets/images/b-1-1.png';
 import b3 from '../assets/images/eye-makeup3.png';
 import b4 from '../assets/images/eye-makeup4.png';
 import b5 from '../assets/images/mehendi3.png';
+import b6 from '../assets/images/p16.jpg';
+import b7 from '../assets/images/p19.png';
+import b8 from '../assets/images/p18.jpg';
 
 const blogData = [
     {
@@ -122,18 +125,18 @@ With all the happy tears, hugging, and dancing, long-wear and waterproof formula
 Eye makeup is one of the most powerful ways to transform your look. Whether you dream of a soft bridal glow or a high-glam evening look, the right eye makeup will make your gaze unforgettable.
 
 💄 Book your bridal makeup trial with Nandita and let your eyes do the talking on your big day.`
-      },
-      {
-        id: 5,
-        title: "Mehendi",
-        tag: "Mehendi",
-        category: "Mehendi",
-        // categoryUrl: "https://mydem03.unaux.com/category/eye-makeup/",
-        image: b5,
-        // link: "https://mydem03.unaux.com/2024/03/14/eye-makeup/",
-        date: "March 15, 2024",
-        description: `
-        🌀 1. Minimalist and Modern Designs
+    },
+    {
+      id: 5,
+      title: "Mehendi",
+      tag: "Mehendi",
+      category: "Mehendi",
+      // categoryUrl: "https://mydem03.unaux.com/category/eye-makeup/",
+      image: b5,
+      // link: "https://mydem03.unaux.com/2024/03/14/eye-makeup/",
+      date: "March 15, 2024",
+      description: `
+      🌀 1. Minimalist and Modern Designs
 Brides are now leaning toward minimalist mehendi styles — clean lines, negative space, and elegant motifs that are stylish yet understated. Perfect for modern brides who want a fresh, fashionable look.
 🕊 2. Personalization & Love Stories
 One of the most beautiful trends is customized mehendi, where designs include the couple’s initials, wedding dates, or even miniature illustrations of their story — like a first meet or proposal. It’s meaningful, artistic, and deeply personal.
@@ -151,8 +154,93 @@ The mehendi application itself has become a cherished ritual. With music, photos
 Mehendi is more than just decoration — it’s an expression of love, tradition, and identity. Whether you dream of intricate motifs or a modern minimalist design, your bridal mehendi should reflect who you are.
 
 🌸 Book your customized bridal mehendi session with Nandita and let your story unfold beautifully through every swirl and pattern.
-        `
-      },
+      `
+    },
+    {
+  "id": 6,
+  "title": "Party Makeup in Newtown & Lake Town – Elegant, Simple & Stunning",
+  "tag": "Party Makeup",
+  "category": "Party Makeup",
+  "image": b6, 
+  "date": "August 16, 2025",
+  "description": `
+✨ Today I had the pleasure of creating a **simple yet elegant party makeup look** for my lovely client at **Newtown – Lake Town**.  
+
+She wanted a natural, glowing style — something light and classy that would enhance her features without going over the top. Here’s how I approached it:  
+
+💄 **Makeup Look Details**  
+- Soft dewy base for a natural finish  
+- Neutral eyeshadow tones with subtle shimmer  
+- Light eyeliner with well-defined lashes  
+- Nude glossy lips for a fresh vibe  
+- Touch of highlighter to bring out the glow  
+
+🌸 **Why This Look?**  
+Party makeup doesn’t always have to be bold. Sometimes, keeping it **simple, minimal, and chic** is the best way to stand out. This look was perfect for her evening event — timeless, comfortable, and photogenic.  
+
+📍 **Location:** Newtown – Lake Town, Kolkata  
+📸 **Client Feedback:** She absolutely loved the soft glam finish and said it was exactly what she had envisioned.  
+
+💬 **Final Note**  
+Whether you’re attending a birthday, cocktail night, or any celebration, a simple party makeup can still make you shine. If you’re in **Newtown, Lake Town, or nearby areas**, book your appointment today and get a customized look designed just for you!  
+
+👉 **Contact me to book your next Party Makeup session!**
+  `
+    },
+    {
+  "id": 7,
+  title: "Eye Makeup",
+  category: "Eye Makeup",
+  tag: "Eye makeup",
+  "image": b7,
+  "date": "August 17, 2025",
+  "description": `✨ 1. Glowy Base with Natural Finish  
+A flawless, dewy foundation that looks fresh and radiant under any light — perfect for evening parties and get-togethers.  
+
+🌈 2. Bold Eyes That Steal the Show  
+Smokey lids blended with soft shimmer and a pop of metallic on the inner corners make the eyes stand out beautifully.  
+
+💄 3. Statement Lips for a Glam Touch  
+From classic reds to deep berries or trendy nudes, the lip color was chosen to balance the bold eye makeup, giving the perfect party vibe.  
+
+🌟 4. Highlight & Contour Magic  
+Soft contouring with a hint of golden highlighter added dimension, making the overall look glow in photos and in person.  
+
+🌸 5. Long-Lasting & Comfortable  
+The entire look was created with lightweight, smudge-proof, and transfer-resistant products so it lasts through dancing, dinner, and fun without touch-ups.  
+
+💬 Final Word  
+Party makeup doesn’t always need to be heavy — it just needs to be eye-catching, stylish, and customized to your personality. Whether it’s a birthday, cocktail party, or celebration, this **glam-yet-natural makeup look** ensures you shine all night.  
+
+📍 Serving clients in **Newtown & Lake Town**. Book your personalized **Party Makeup session** today and let your beauty glow effortlessly!`
+    },
+    {
+  "id": 8,
+  "title": "Simple & Attractive Party Makeup for Kids – Newtown & Lake Town",
+  "tag": "Kids Party Makeup",
+  "category": "Party Makeup",
+  "image": b8,
+  "date": "August 17, 2025",
+  "description": `🌸 1. Fresh & Natural Base  
+For a 12-year-old, less is more! A light touch of moisturizer, mild BB cream, and a soft powder kept the skin looking natural and fresh without any heaviness.  
+
+✨ 2. Soft Eye Glow  
+Instead of dark shadows, we used pastel shades with a tiny shimmer that added brightness to the eyes, keeping the look youthful and sweet.  
+
+💄 3. Cute & Light Lip Tint  
+A soft pink lip tint gave a natural flush of color, perfect for a child’s party look — fun yet age-appropriate.  
+
+🌟 4. Rosy Cheeks  
+A gentle dab of peach-pink blush brought out a healthy glow, making the little one look vibrant and party-ready.  
+
+🎀 5. Comfortable & Kid-Friendly Products  
+Only safe, skin-friendly products were used to ensure comfort while playing, enjoying food, and having fun at the party.  
+
+💬 Final Word  
+Kids’ party makeup should always be about enhancing natural beauty, not hiding it. This look was kept light, fresh, and playful — perfect for a 12-year-old to shine at any birthday or family gathering.  
+
+📍 Serving clients in **Newtown & Lake Town**. Book a safe, age-appropriate **Kids’ Party Makeup session** today to give your little star a confident glow!`
+    },
   ];
   
   export default blogData;

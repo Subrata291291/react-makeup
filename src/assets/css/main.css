@@ -285,6 +285,8 @@ img {
   filter: brightness(100%);
   margin-bottom: 1.5rem;
   width: 100%;
+  height: 31.5rem;
+  max-height: 31.5rem;
 }
 .gallery_area .view_more_btn {
   background-color: #df3774;

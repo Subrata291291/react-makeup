@@ -13,6 +13,13 @@ import p12 from '../assets/images/p12.png';
 import p13 from '../assets/images/p13.png';
 import p14 from '../assets/images/p14.png';
 import p15 from '../assets/images/p15.png';
+import p16 from '../assets/images/p16.jpg';
+import p17 from '../assets/images/p17.jpg';
+import p18 from '../assets/images/p18.jpg';
+import p19 from '../assets/images/p19.jpg';
+import p20 from '../assets/images/p20.jpg';
+import p21 from '../assets/images/p21.jpg';
+import p22 from '../assets/images/p22.jpg';
 const galleryImages = [
     {
       src: p1,
@@ -83,7 +90,42 @@ const galleryImages = [
       src: p15,
       alt: "p6",
       caption: "menu-1",
-    }
+    },
+    {
+      src: p16,
+      alt: "p6",
+      caption: "menu-1",
+    },
+    {
+      src: p17,
+      alt: "p6",
+      caption: "menu-1",
+    },
+    {
+      src: p18,
+      alt: "p6",
+      caption: "menu-1",
+    },
+    {
+      src: p19,
+      alt: "p6",
+      caption: "menu-1",
+    },
+    {
+      src: p20,
+      alt: "p6",
+      caption: "menu-1",
+    },
+    {
+      src: p21,
+      alt: "p6",
+      caption: "menu-1",
+    },
+    {
+      src: p22,
+      alt: "p6",
+      caption: "menu-1",
+    },
   ];
   
   export default galleryImages;
