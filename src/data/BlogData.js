@@ -6,7 +6,8 @@ import b5 from '../assets/images/mehendi3.png';
 import b6 from '../assets/images/p16.jpg';
 import b7 from '../assets/images/p19.png';
 import b8 from '../assets/images/p18.jpg';
-
+import b9 from '../assets/images/p13.png';
+import b10 from '../assets/images/p25.jpg';
 const blogData = [
     {
       id: 1,
@@ -241,6 +242,71 @@ Kids’ party makeup should always be about enhancing natural beauty, not hiding
 
 📍 Serving clients in **Newtown & Lake Town**. Book a safe, age-appropriate **Kids’ Party Makeup session** today to give your little star a confident glow!`
     },
+    {
+  "id": 9,
+  title: "Trendy Hair Styling Ideas for Every Occasion",
+  category: "Hair Styling",
+  tag: "Hair Styling",
+  "link": "/blog/hair-styling",
+  "image": b9,
+  "date": "February 14, 2025",
+  "description": `💇‍♀️ 1. Sleek Ponytails with a Modern Touch  
+High and mid ponytails are no longer basic! Add a wrap of hair around the band or a soft twist at the crown to make them stylish yet effortless. Perfect for parties or casual gatherings.  
+
+🌼 2. Playful Braids for All Ages  
+French braids, fishtails, or bubble braids — braids are versatile and fun. Whether for kids, teens, or brides, they bring both comfort and elegance to the overall look.  
+
+🌸 3. Soft Waves That Never Fail  
+Loose waves with a glossy finish give a timeless, chic vibe. They work beautifully for dinners, pre-wedding events, or even a casual day out.  
+
+✨ 4. Accessorize for Extra Glam  
+From pearl clips to trendy hairbands and floral pins, accessories instantly uplift any hairstyle. They’re the quickest way to transform a simple look into something eye-catching.  
+
+🌺 5. Fresh Florals for a Natural Glow  
+Adding jasmine, roses, or baby’s breath to buns or braids gives a natural, fragrant charm — perfect for weddings, pujas, or festive occasions.  
+
+💡 6. Trials & Customization  
+No two faces are the same — which is why hair trials are important. A trial helps you discover what suits your personality, outfit, and the event best.  
+
+💬 Final Word  
+Hair styling isn’t just about trends — it’s about expressing yourself. From elegant buns to playful braids and chic waves, choose a style that matches your vibe and lets your confidence shine.  
+
+✂️ Book a **hair styling session with Nandita** and step out with a look that’s made just for you!`
+    },
+    {
+  "id": 10,
+  "title": "Gorgeous Hair Styling Trends You Must Try",
+  "category": "Hair Styling",
+  "tag": "Hair Styling",
+  "link": "/blog/hair-styling",
+  "image": b10,
+  "date": "February 14, 2025",
+  "description": `💇‍♀️ 1. Effortless Low Buns  
+Low buns with a touch of texture or braids are back in trend. Pair them with a saree or gown for a graceful and classy look that works for both weddings and formal events.  
+
+🌟 2. Half-Up, Half-Down Magic  
+This hairstyle is perfect if you want to keep your hair off your face while still showing off your length. Add curls or waves for an elegant finish that works beautifully for receptions or casual outings.  
+
+🌼 3. Chic Top Knots  
+Whether messy or sleek, top knots are a quick solution for busy days. They add height, style, and sophistication — making them ideal for office looks or quick meetups.  
+
+🌸 4. Romantic Curls  
+Soft curls never go out of fashion! They frame the face beautifully, making them perfect for date nights, parties, and festive celebrations.  
+
+✨ 5. Statement Accessories  
+Crystal pins, metallic clips, or floral crowns can instantly transform any hairstyle. They’re the easiest way to add a modern twist without spending hours in front of the mirror.  
+
+🌺 6. Braided Details  
+From fishtail braids to side braids, adding a braided element gives a stylish edge to buns, ponytails, or open hairstyles. Great for weddings, haldi, or mehendi events.  
+
+💡 Pro Tip  
+Always choose a hairstyle that matches your outfit neckline and event vibe. A little trial before the big day can save you last-minute stress!  
+
+💬 Final Word  
+Hair styling is the crown of your overall look. Whether you love chic buns, wavy locks, or trendy braids — pick a style that makes you feel confident and radiant.  
+
+✂️ Book your **styling appointment with Nandita** today and flaunt a look that’s uniquely yours!`
+    }
   ];
   
   export default blogData;

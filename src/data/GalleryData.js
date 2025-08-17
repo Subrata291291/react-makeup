@@ -20,6 +20,9 @@ import p19 from '../assets/images/p19.jpg';
 import p20 from '../assets/images/p20.jpg';
 import p21 from '../assets/images/p21.jpg';
 import p22 from '../assets/images/p22.jpg';
+import p23 from '../assets/images/p23.jpg';
+import p24 from '../assets/images/p24.jpg';
+import p25 from '../assets/images/p25.jpg';
 const galleryImages = [
     {
       src: p1,
@@ -123,6 +126,21 @@ const galleryImages = [
     },
     {
       src: p22,
+      alt: "p6",
+      caption: "menu-1",
+    },
+    {
+      src: p23,
+      alt: "p6",
+      caption: "menu-1",
+    },
+    {
+      src: p24,
+      alt: "p6",
+      caption: "menu-1",
+    },
+    {
+      src: p25,
       alt: "p6",
       caption: "menu-1",
     },
