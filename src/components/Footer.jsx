@@ -80,7 +80,7 @@ const Footer = () => {
           <div className="copyright text-center mt-4">
             <p>
               Copyright <span style={{ color: '#db0f73' }}>@</span> 2024 Makeover By Nandita.
-              All Rights Reserved.
+              All Rights Reserved. || Designed by Gictsolutions
             </p>
           </div>
         </div>
