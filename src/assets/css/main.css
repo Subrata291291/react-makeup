@@ -324,6 +324,7 @@ img {
   background-repeat: no-repeat;
   padding: 10rem 0rem;
   background-attachment: fixed;
+  overflow: hidden;
 }
 
 .review_area h3 {
@@ -1076,6 +1077,9 @@ input:-internal-autofill-selected {
 @media (max-width: 767px) {
   .blog_area .blog-left .blog-box .blog-title {
     font-size: 2rem;
+  }
+  .gallery_area .gallery .content img {
+      height: inherit;
   }
   .common_banner {
     padding: 10rem 0rem 4rem;
