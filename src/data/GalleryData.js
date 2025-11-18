@@ -23,6 +23,10 @@ import p22 from '../assets/images/p22.jpg';
 import p23 from '../assets/images/p23.jpg';
 import p24 from '../assets/images/p24.jpg';
 import p25 from '../assets/images/p25.jpg';
+import p26 from '../assets/images/eye-makeup1.jpg';
+import p27 from '../assets/images/mehendi.jpg';
+import p28 from '../assets/images/eye-makeup2.jpg';
+import p29 from '../assets/images/mehendi.jpeg';
 const galleryImages = [
     {
       src: p1,
@@ -142,6 +146,26 @@ const galleryImages = [
     {
       src: p25,
       alt: "p6",
+      caption: "menu-1",
+    },
+    {
+      src: p26,
+      alt: "p26",
+      caption: "menu-1",
+    },
+    {
+      src: p27,
+      alt: "p27",
+      caption: "menu-1",
+    },
+    {
+      src: p28,
+      alt: "p28",
+      caption: "menu-1",
+    },
+    {
+      src: p29,
+      alt: "p29",
       caption: "menu-1",
     },
   ];
