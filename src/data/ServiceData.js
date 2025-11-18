@@ -23,22 +23,22 @@ const serviceData = {
     },
     {
       img: eyebrow,
-      label: "HD Makeup",
+      label: "Reception Makeup",
       description: "For those looking for a flawless, camera-ready look, HD makeup is the perfect choice. Designed to create a smooth, airbrushed finish, HD makeup is ideal for photoshoots, high-definition video, and special occasions where every detail matters. Nandita uses premium products and techniques to ensure that your makeup looks impeccable both in person and on screen, providing long-lasting coverage without compromising on comfort."
     },
     {
-      img: haircut,
+      img: partyMakeup,
       label: "Bridal Mehendi",
       description: "Celebrate your big day with the timeless art of Bridal Mehendi. Nandita specializes in intricate, elegant mehendi designs that blend traditional motifs with modern flair, creating stunning patterns for hands, arms, and feet. Using natural, skin-friendly henna, the designs are deeply pigmented and long-lasting. Whether you prefer classic bridal patterns or customized elements that tell your love story, Nandita ensures a relaxed and enjoyable mehendi session with a flawless finish for your special day."
     },
     {
       img: partyMakeup,
-      label: "Hairstyling",
+      label: "Engagement Makeup",
       description: "No look is complete without the perfect hairstyle. Whether you're looking for elegant updos, soft curls, sleek straight styles, or voluminous waves, Nandita's hairstyling expertise will ensure your hair complements your makeup flawlessly. Using the latest techniques and high-quality products, she creates long-lasting styles that will keep you looking stunning from morning to night."
     },
     {
-      img: eye,
-      label: "Facial Makeup (Makeup for All Occasions)",
+      img: haircut,
+      label: "Hair Styling",
       description: "From daily wear to special events, Nandita offers professional facial makeup services designed to enhance your natural features and provide flawless coverage. Whether you’re after a fresh, dewy finish for daytime or a more glamorous look for an evening out, she ensures that your makeup is expertly applied with a personalized touch. With a keen eye for color matching and skin tones, Nandita’s makeup is designed to last all day while keeping you feeling fresh and confident."
     }
   ]
