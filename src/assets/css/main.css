@@ -1079,7 +1079,7 @@ input:-internal-autofill-selected {
     font-size: 2rem;
   }
   .gallery_area .gallery .content img {
-      height: inherit;
+      height: 12.6rem;
   }
   .common_banner {
     padding: 10rem 0rem 4rem;
