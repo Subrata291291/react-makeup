@@ -2,7 +2,7 @@ import p1 from '../assets/images/p1.png';
 import p2 from '../assets/images/p2.png';
 import p3 from '../assets/images/p3.png';
 import p4 from '../assets/images/p4.png';
-import p5 from '../assets/images/p5.png';
+import p32 from '../assets/images/p-28.jpeg';
 import p6 from '../assets/images/p6.png';
 import p7 from '../assets/images/eye-makeup.png';
 import p8 from '../assets/images/eye-makeup2.png';
@@ -29,7 +29,6 @@ import p28 from '../assets/images/eye-makeup2.jpg';
 import p29 from '../assets/images/mehendi.jpeg';
 import p30 from '../assets/images/p-26.jpeg';
 import p31 from '../assets/images/p-27.jpeg';
-import p32 from '../assets/images/p-28.jpeg';
 const galleryImages = [
     {
       src: p1,
