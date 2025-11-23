@@ -24,7 +24,7 @@ import p23 from '../assets/images/p23.jpg';
 import p24 from '../assets/images/p24.jpg';
 import p25 from '../assets/images/p25.jpg';
 import p26 from '../assets/images/eye-makeup1.jpg';
-import p27 from '../assets/images/mehendi.jpg';
+import p27 from '../assets/images/p27.jpeg';
 import p28 from '../assets/images/eye-makeup2.jpg';
 import p29 from '../assets/images/mehendi.jpeg';
 import p30 from '../assets/images/p-26.jpeg';
@@ -61,8 +61,8 @@ const galleryImages = [
       caption: "menu-1",
     },
     {
-      src: p8,
-      alt: "p6",
+      src: p31,
+      alt: "p31",
       caption: "menu-1",
     },
     {
@@ -176,8 +176,8 @@ const galleryImages = [
       caption: "menu-1",
     },
     {
-      src: p31,
-      alt: "p31",
+      src: p8,
+      alt: "p6",
       caption: "menu-1",
     },
     {
