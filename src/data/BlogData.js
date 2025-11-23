@@ -8,6 +8,7 @@ import b7 from '../assets/images/p19.png';
 import b8 from '../assets/images/p18.jpg';
 import b9 from '../assets/images/p13.png';
 import b10 from '../assets/images/p25.jpg';
+import b11 from '../assets/images/p-27.jpeg';
 const blogData = [
     {
       id: 1,
@@ -306,6 +307,40 @@ Always choose a hairstyle that matches your outfit neckline and event vibe. A li
 Hair styling is the crown of your overall look. Whether you love chic buns, wavy locks, or trendy braids — pick a style that makes you feel confident and radiant.  
 
 ✂️ Book your **styling appointment with Nandita** today and flaunt a look that’s uniquely yours!`
+    },
+    {
+  "id": 11,
+  "title": "Elegant Party Makeup with Traditional Glam",
+  "category": "Party Makeup",
+  "tag": "Party Makeup",
+  "link": "/blog/elegant-party-makeup",
+  "image": b11,
+  "date": "November 23, 2025",
+  "description": `💄✨ 1. Soft & Flawless Base  
+A smooth, radiant base with natural contouring enhances facial features without overpowering the look. The subtle glow gives a timeless charm for evening events and festive celebrations.
+
+👁️‍🗨️ 2. Defined Eyes with Classic Touch  
+Neutral-toned eyeshadow paired with precise eyeliner beautifully defines the eyes. Light smokey shading and voluminous lashes add sophistication perfect for traditional attire like sarees.
+
+💋 3. Bold Yet Graceful Lip Shade  
+A warm-toned lipstick completes the look, balancing elegance with confidence. Ideal for occasions where you want your makeup to speak without being too loud.
+
+🌺 4. Effortless Hairstyle  
+Sleek, neatly parted hair complementing the makeup adds poise and refinement. Works well with bridal, party, or puja looks – especially when paired with statement jewelry.
+
+📿 5. Gold Jewelry Styling  
+Heavy gold jewellery enhances the richness of the overall look. The makeup is thoughtfully balanced to let accessories shine without overshadowing facial features.
+
+🌸 Makeup Vibe  
+This look is graceful, minimal, and culturally elegant — perfect for receptions, evening parties, and festive occasions. Best suited for women who prefer sophistication over heavy makeup.
+
+💡 Pro Tip  
+Opt for lightweight long-lasting makeup products to ensure comfort through long events while maintaining a fresh appearance.
+
+📌 Final Word  
+Beauty lies in simplicity and confidence. Choose a makeup style that brings out your inner glow while complementing your outfit and occasion.
+
+💃 Book your **party makeup session with Nandita** today and step into any event with elegance and grace!`
     }
   ];
   

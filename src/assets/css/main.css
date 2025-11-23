@@ -450,6 +450,8 @@ img {
   transition: all 0.5s;
   filter: brightness(100%);
   height: auto;
+  max-height: 40rem;
+  object-fit: cover;
 }
 .blog_area .post-categories li a {
   color: #df3774;
