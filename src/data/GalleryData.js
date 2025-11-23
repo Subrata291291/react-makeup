@@ -27,6 +27,9 @@ import p26 from '../assets/images/eye-makeup1.jpg';
 import p27 from '../assets/images/mehendi.jpg';
 import p28 from '../assets/images/eye-makeup2.jpg';
 import p29 from '../assets/images/mehendi.jpeg';
+import p30 from '../assets/images/p-26.jpeg';
+import p31 from '../assets/images/p-27.jpeg';
+import p32 from '../assets/images/p-28.jpeg';
 const galleryImages = [
     {
       src: p1,
@@ -166,6 +169,21 @@ const galleryImages = [
     {
       src: p29,
       alt: "p29",
+      caption: "menu-1",
+    },
+    {
+      src: p30,
+      alt: "p30",
+      caption: "menu-1",
+    },
+    {
+      src: p31,
+      alt: "p31",
+      caption: "menu-1",
+    },
+    {
+      src: p32,
+      alt: "p32",
       caption: "menu-1",
     },
   ];
