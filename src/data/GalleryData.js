@@ -46,8 +46,8 @@ const galleryImages = [
       caption: "menu-1",
     },
     {
-      src: p4,
-      alt: "p4",
+      src: p32,
+      alt: "p32",
       caption: "menu-1",
     },
     {
@@ -181,8 +181,8 @@ const galleryImages = [
       caption: "menu-1",
     },
     {
-      src: p32,
-      alt: "p32",
+      src: p4,
+      alt: "p4",
       caption: "menu-1",
     },
   ];
